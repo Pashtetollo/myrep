@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @RestController
-@RequestMapping("data")
+@RequestMapping("/data")
 public class DataController {
 
     @Autowired
