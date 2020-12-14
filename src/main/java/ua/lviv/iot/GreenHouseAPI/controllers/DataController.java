@@ -1,12 +1,11 @@
 package ua.lviv.iot.GreenHouseAPI.controllers;
-
+import ua.lviv.iot.GreenHouseAPI.services.DataService;
 import net.minidev.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ua.lviv.iot.GreenHouseAPI.models.Data;
-import ua.lviv.iot.GreenHouseAPI.services.DataService;
 
 import java.util.HashMap;
 import java.util.List;
